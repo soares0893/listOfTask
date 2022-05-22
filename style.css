@@ -1,0 +1,81 @@
+
+h1{
+    text-align: center;
+    color: whitesmoke;
+}
+main {
+    background-color: rgba(46, 44, 44, 0.767);
+    width: 60vw;
+    margin: auto;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+section {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+section input {
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    text-align: center;
+}
+section button{
+    background-color: #1c5fb8;
+    width: 35px;
+    height: 33px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+} section button:hover{background-color: #0b0d96;}
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+table thead {
+    color: whitesmoke;
+}
+table tbody {
+    background-color: whitesmoke;;
+}
+table tbody tr {
+    border-bottom: 1px solid black;
+    background-color: rgb(46, 44, 44);
+    color: whitesmoke;
+    height: 35px;
+}
+table tbody td{
+    max-width: 200px;
+}
+td:first-child{
+    text-align: center;
+}
+.buttonJS{
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: whitesmoke;
+    cursor: pointer;
+}
+/**/
+.update{
+    background-color: #246640;
+} .update:hover{background-color: #19994e;}
+.delete{
+    background-color: red;  
+} .delete:hover{background-color: rgba(255, 0, 0, 0.459);}
+
+.popUpWindow{
+    background-color: rgba(46, 44, 44, 0.767);
+    padding: 20px;
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    border-radius: 5px;
+}
